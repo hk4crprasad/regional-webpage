@@ -1,1 +1,188 @@
 
+
+/*Downloaded from https://www.codeseek.co/ggbhat/happy-independence-day-india-xDCba */
+.outer{
+     cursor:pointer;
+		width:600px;
+  /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #F29832 0%, #FFFFFF 50%, #7A901B 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #F29832 0%, #FFFFFF 50%, #7A901B 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #F29832 0%, #FFFFFF 50%, #7A901B 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #F29832), color-stop(0.5, #FFFFFF), color-stop(1, #7A901B));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #F29832 0%, #FFFFFF 50%, #7A901B 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #F29832 0%, #FFFFFF 50%, #7A901B 100%);
+  float:left;
+  padding:150px;
+	}
+
+	.one, .two, .three, .four {
+		float: left;
+		width:50%;
+		
+    height:150px;
+    color:#fff;
+    font-family:sans-serif;
+    font-size:25px;
+    text-align:center;
+    text-transform:uppercase;
+    
+	}
+	.one{
+		background:#FF9935;
+     
+	}
+	.two{
+	  background:#fff;
+    color:#FF9935;
+	}
+	.three{
+		background:#118806;
+    
+	}
+	.four{
+		background:#000074;
+    
+	}
+
+.hide {
+  background:#fff;
+  padding:100px;
+  border:1px solid #ccc;
+}
+
+.hide .one, .hide .two, .hide .three, .hide .four {
+  float:none;
+  width:100%;
+  text-indent:-100000px;
+  display:block;
+  line-height:0px;
+}
+.hide .one {
+  
+  -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count:finite;
+    -webkit-animation-name:left-right-one;
+    -webkit-animation-timing-function: linear;
+  -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count:finite;
+    -moz-animation-name:left-right-one;
+    -moz-animation-timing-function: linear;
+     animation-duration: 500ms;
+     animation-iteration-count:finite;
+     animation-name:left-right-one;
+     animation-timing-function: linear;
+}
+.hide .two {
+  background:url(http://www.imageno.com/image.php?id=covzvr4pqqgy&kk=3400875753)no-repeat #fff center;
+    background-size:25%;
+  -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count:finite;
+    -webkit-animation-name:left-right;
+    -webkit-animation-timing-function: linear;
+  -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count:finite;
+    -moz-animation-name:left-right;
+    -moz-animation-timing-function: linear;
+     animation-duration: 500ms;
+     animation-iteration-count:finite;
+     animation-name:left-right;
+     animation-timing-function: linear;
+}
+
+
+.hide .three {
+  
+  -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count:finite;
+    -webkit-animation-name:right-left;
+    -webkit-animation-timing-function: linear;
+  -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count:finite;
+    -moz-animation-name:right-left;
+    -moz-animation-timing-function: linear;
+    animation-duration: 500ms;
+    animation-iteration-count:finite;
+    animation-name:right-left;
+    animation-timing-function: linear;
+}
+
+.hide .four {
+  display:none;
+}
+
+.outer p{
+  line-height:35px;
+}
+
+.one p{
+  line-height:30px;
+}
+.outer .happy{display:none;}
+.hide p{
+  display:none;
+}
+.hide .happy {display:block !important;}
+.happy{
+  color:#333;
+  font-size:50px;
+  text-align:center;
+  text-shadow:1px 1px 1px #333;
+}
+.h{color:#FF9935}.ind{color:#FFFFFF; text-shadow:3px 0px 3px #000066;}.d{color:#118806;}
+
+@-webkit-keyframes left-right-one{
+  from { margin-left:-50px; }
+  to { margin-left:0px; }
+}
+
+@-webkit-keyframes left-right{
+  from { margin-left:150px; }
+  to { margin-left:0px; }
+}
+
+@-webkit-keyframes right-left{
+  from { margin-left:0px; }
+  to { margin-left:150px; }
+}
+
+@-moz-keyframes left-right-one{
+  from { margin-left:-50px; }
+  to { margin-left:0px; }
+}
+
+@-moz-keyframes left-right{
+  from { margin-left:150px; }
+  to { margin-left:0px; }
+}
+
+@-moz-keyframes right-left{
+  from { margin-left:0px; }
+  to { margin-left:150px; }
+}
+
+@keyframes left-right-one{
+  from { margin-left:-50px; }
+  to { margin-left:0px; }
+}
+
+@keyframes left-right{
+  from { margin-left:150px; }
+  to { margin-left:0px; }
+}
+
+@keyframes right-left{
+  from { margin-left:0px; }
+  to { margin-left:150px; }
+}
